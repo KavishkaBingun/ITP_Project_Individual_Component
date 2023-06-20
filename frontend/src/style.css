@@ -1,0 +1,33 @@
+.container2 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .vertical-line {
+    border-left: 2px solid black;
+    height: 150%;
+    position: absolute;
+    left: 50%;
+    top: 100px;
+  }
+
+  .container3{
+    
+   
+    margin-left: 700px;
+   top: 100px;
+    left: 60%;
+  }
+
+  .form-label{
+    font-weight: bold;
+  }
+
+  .paragraph{
+    background-color: rgb(105, 102, 102);
+    color: aliceblue;
+    width: 600px;
+    text-align:justify;
+    margin-left: 1px;
+  
+  }

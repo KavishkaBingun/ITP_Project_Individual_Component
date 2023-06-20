@@ -1,0 +1,34 @@
+import './App.css';
+import Header from "./components/Header";
+import Footer from './components/Footer';
+import AllFinances from './components/AllFinance';
+import AddFinance from './components/AddFinance';
+import UpdateFinance from './components/UpdateFinance';
+import DeleteFinance from './components/DeleteFinance';
+import Login from './components/Login';
+import Register from './components/Register';
+import {BrowserRouter as Router,Route,Routes} from 'react-router-dom';
+
+function App() {
+  return (
+    <Router>
+        <div>
+          <Header/>
+
+          <Routes>
+            <Route path="/add" element={<AddFinance/>}/>
+            <Route path="/" element={<AllFinances/>}/>
+            <Route path="/update/:id" element={<UpdateFinance/>}/>
+            <Route path="/delete/:id" element={<DeleteFinance/>}/>
+            <Route path="/login/" element={<Login/>}/>
+            <Route path="/Register/" element={<Register/>}/>
+          </Routes>
+          
+          <Footer/>
+
+        </div>
+      </Router>
+  );
+}
+
+export default App;

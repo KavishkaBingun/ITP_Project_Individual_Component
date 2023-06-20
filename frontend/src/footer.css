@@ -1,0 +1,46 @@
+.nav-footer{
+    background-image: url("./images/footer-back.jpg");
+    background-repeat:no-repeat;
+    background-position: bottom;
+    background-size: cover;  
+}
+
+.navbar ul li{
+    display:inline-block;
+    
+}
+
+.footer-nav-link{
+    transition: all 0.2s;
+    position:relative;
+}
+
+.footer-nav-link:after{
+    content:'';
+    opacity:0;
+    transition: all 0.2s;
+    height:3px;
+    width:100%;
+    background-color:#F88424;
+    position: absolute;
+    bottom:-5px;
+    left:0;
+}
+
+.footer-nav-link:hover::after{
+    opacity:1;
+}
+
+.color-hr {
+    height:4px;
+    border:none;
+    border-radius:10px;
+    background:linear-gradient(to left, blue, red);
+}
+
+.fab:hover{
+    color:blue;
+}
+
+
+

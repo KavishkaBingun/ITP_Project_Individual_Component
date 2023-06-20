@@ -1,0 +1,212 @@
+body {
+    background-image: url("./images/finance-background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+
+.btn-update:hover{
+    color:blue;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.btn-add:hover{
+    color:blue;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.btn-back:hover{
+    color:orange;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.validation-label{
+    color:red;
+}
+
+
+//Homepage
+.home{
+    width:100%;
+    height:100vh;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    align-items:center;
+    gap:2rem;
+}
+
+.homepage-img1 img{
+    max-width:100%;
+    width:100%;
+    height:auto;
+}
+
+.home-text h4{
+    color:orange;
+    font-size:30px;
+    font-weight:600;
+    letter-spacing:-1px;
+    font-family:'lobster', cursive;
+}
+
+.home-text h1{
+    font-size:40px;
+    font-weight:700;
+    line-height:1.2;
+    margin:23px 0;
+}
+
+.home-text h1 span{
+    color:#cc3333;
+    text-decoration:underline;
+}
+
+.home-text p{
+    color:#666;
+    font-size:20px;
+    font-weight:400;
+    line-height:25px;
+    margin-bottom:40px;
+}
+
+.hp-btn1,
+.hp-btn2 {
+    display:inline-block;
+    padding:14px 24px;
+    font-weight:700;
+    text-transform:uppercase;
+    border-radius:8px;
+}
+
+.hp-btn1{
+    color:#fff;
+    background-image: linear-gradient(#F7971E,#FFD200);
+    margin-right:20px;
+}
+
+.hp-btn2{
+    color:#fff;
+    background-image: linear-gradient(#00B4DB,#0083B0);
+    position:relative;
+}
+
+.hp-btn2 span {
+    display:inline-block;
+    margin-right:10px;
+}
+
+.hp-btn2:hover span {
+    transform:translateX(5px);
+}
+
+.hp-btn1:hover{
+    background-image: linear-gradient(#FC466B,#3F5EFB);
+}
+
+.hp-btn2:hover{
+    background-image: linear-gradient(#FC466B,#3F5EFB);
+}
+
+.fas.fa-play {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:2rem;
+}
+
+.menu{
+    padding:0 10px 30px 10px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+    grid-gap:20px 40px;
+}
+
+.menu-heading{
+    background-image: linear-gradient(#F7971E,#FFD200);
+    color:#fff;
+    margin-bottom:30px;
+    padding:15px 0;
+    grid-column:1/-1;
+    text-align:center;
+}
+
+.menu-heading h1{
+    font-weight:400;
+    font-size:32px;
+    letter-spacing:10px;
+    margin-bottom:10px;
+    text-transform:uppercase;
+}
+
+.menu-heading h3{
+    font-weight:600;
+    font-size:22px;
+    letter-spacing:5px;
+    text-transform:uppercase;
+}
+
+.food-items{
+    display:grid;
+    position:relative;
+    grid-template-rows:auto 1fr;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);
+    transition: .2s ease-in-out;
+}
+
+.food-items img{
+    position:relative;
+    width:100%;
+    height:280px;
+    border-radius:15px 15px 0 0;
+    cursor:pointer;
+}
+
+.food-details{
+    padding:20px 10px;
+    display:grid;
+    grid-template-rows:auto 1fr 50px;
+    grid-row-gap:15px;
+}
+
+.food-details-sub{
+    display:grid;
+    grid-template-columns:auto auto;
+}
+
+.food-details-sub h5{
+    font-weight:600;
+    font-size:18px;
+}
+
+.food-price{
+    text-align:right;
+}
+
+.food-details p{
+    color:#6f6f6f;
+    font-size:15px;
+    line-height:28px;
+    font-weight:400;
+    align-self:stretch;
+}
+
+.food-details button{
+    background-image: linear-gradient(#F00000,#DC281E);
+    border:none;
+    color:#fff;
+    font-size:16px;
+    font-weight:600;
+    border-radius:5px;
+    width:100%;
+    cursor:pointer;
+}
+
+.food-details button:hover{
+    background-image: linear-gradient(#F7971E,#FFD200);
+}
+
+
+
+
